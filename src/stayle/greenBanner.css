@@ -1,0 +1,61 @@
+.greenBanner {
+    margin: 80px 0;
+}
+.greenBanner__wrapper{
+    display: grid;
+  grid-template-columns: 552px 1fr;
+    gap: 24px;
+}
+
+.greenBanner__content{
+    padding: 24px;
+    border-radius: 20px;
+    background: var(--mint-green);
+}
+
+.greenBanner__content div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.greenBanner__content div button{
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+color: var(--blackish-green);
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+color: var(--blackish-green);
+border-radius: 8px;
+padding: 8px;
+width: 68px;
+height: 62px;
+}
+
+.greenBanner__content h2{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 40px;
+color: var(--blackish-green);
+}
+.greenBanner__content p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+color: var(--blackish-green);
+margin: 24px 0 120px;
+}
+.greenBanner__content button{
+    background: var(--neutrals);
+    border-radius: 4px;
+padding: 8px 16px;
+width: 504px;
+height: 48px;
+border: none;
+}
+.greenBanner__grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px 20px;
+}

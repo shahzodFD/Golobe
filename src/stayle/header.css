@@ -1,0 +1,104 @@
+.header{
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 32px;
+    position:absolute;
+    left: 0;
+    right: 0;
+    z-index: 5;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_header{
+    max-width: 1380px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_nav{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    list-style: none;
+    text-decoration: none;
+  
+}
+.main_header.header_nav a{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--blackish-green);
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.header.header_nav a{
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--neutrals);
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.header_btn{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.header.header_btn a:nth-of-type(1){
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 14px;
+color: var(--neutrals);
+}
+.main_header.header_btn a:nth-of-type(1){
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 14px;
+color: var(--blackish-green);
+}
+.header.header_btn a:nth-of-type(2){
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: var(--blackish-green);
+    padding: 15px 24px;
+    background-color: white;
+}
+.main_header.header_btn a:nth-of-type(2){
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: var(--neutrals);
+    padding: 15px 24px;
+    background: var(--blackish-green);
+
+}
+.header a:-webkit-any-link {
+    color: var(--neutrals);
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+align-items: center;
+gap: 4px;
+}
+.main_header a:-webkit-any-link {
+    color: var(--blackish-green);
+    cursor: pointer;
+    text-decoration: none;
+display: flex;
+align-items: center;
+gap: 4px;
+}

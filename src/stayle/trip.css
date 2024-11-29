@@ -1,0 +1,87 @@
+.trip{
+    margin-top: 120px;
+}
+.trip_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+.trip_card{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.trip_card h5{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 16px;
+color: var(--blackish-green);
+opacity: 0.7;
+margin-bottom: 8px;
+}
+.trip_card p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+color: var(--blackish-green);
+
+}
+.trip_img{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.tripBanner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 372px 0 24px;
+    position: relative;
+}
+.tripBanner h2{
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 40px;
+text-align: center;
+color: var(--neutrals);
+margin-bottom: 8px;
+}
+.tripBanner p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: var(--neutrals);
+}
+.tripBanner button{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+color: var(--blackish-green);
+border-radius: 4px;
+padding: 8px 16px;
+width: 144px;
+height: 48px;
+background: var(--mint-green);
+border: none;
+margin: 0 auto;
+display: block;
+margin-top: 16px;
+}
+.trip_overlay{
+    position: absolute;
+    height: 280px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(18, 18, 18, 0.75) 48.67%);
+z-index: 1;
+bottom: 0;
+}
+.trip-content{
+    position: relative ;
+    z-index: 5;
+}

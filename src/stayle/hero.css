@@ -1,0 +1,48 @@
+.hero{
+    background-image: url("/src/img/Hero_img.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+padding: 150px 0 187px;
+border-radius: 24px;
+position: relative;
+}
+.hero h4{
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 45px;
+text-align: center;
+color: var(--neutrals);
+}
+.hero h1{
+    font-family: var(--third-family);
+font-weight: 700;
+font-size: 80px;
+text-transform: uppercase;
+text-align: center;
+color: var(--neutrals);
+margin-top: 4px;
+margin-bottom: 16px;
+}
+.hero p{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+color: var(--neutrals);
+}
+.ourley{
+    border-radius: 0 0 24px 24px;
+height: 581px;
+background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+transform: rotate(-180deg);
+position: absolute;
+top: 0;
+right: 0;
+left: 0;
+z-index: 4;
+}
+.z{
+    position: relative;
+    z-index: 5;
+}

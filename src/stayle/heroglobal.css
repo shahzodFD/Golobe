@@ -1,0 +1,23 @@
+.heroGlobal {
+    padding: 80px 0 286px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroGlobal__content{
+    width: 430px;
+}
+
+.heroGlobal__content h1{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 45px;
+color: var(--neutrals);
+}
+.heroGlobal__content p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+color: var(--neutrals);
+}

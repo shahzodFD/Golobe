@@ -1,0 +1,53 @@
+.rewivs{
+    margin-bottom: 70px;
+    margin-top: 80px;
+}
+.rewivs_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 24px;
+}
+.rewivs_card{
+    border-radius: 20px;
+padding: 24px;
+background: var(--neutrals);
+
+}
+.rewivs_card h1{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--blackish-green);
+}
+.rewivs_card p{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+color: var(--blackish-green);
+opacity: 0.5;
+margin-top: 16px;
+margin-bottom: 12px;
+}
+.rewivs_card h4{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 14px;
+text-align: right;
+color: var(--blackish-green);
+margin-bottom: 16px;
+}
+.rewivs_card h5{
+    font-family: var(--second-family);
+font-weight: 700;
+font-size: 14px;
+color: var(--blackish-green);
+margin-top: 20px;
+margin-bottom: 4px;
+}
+.rewivs_card img:nth-of-type(2){
+    margin-bottom: 40px;
+    margin-bottom: 12px;
+}
+.rewivs_card img:nth-of-type(3){
+    border-radius: 8px;
+}

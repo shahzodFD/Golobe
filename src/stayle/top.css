@@ -1,0 +1,32 @@
+
+.top{
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top h1{
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 32px;
+color: #000;
+margin-bottom: 16px;
+}
+.top p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+color: var(--blackish-green);
+opacity: 0.75;
+}
+.top button{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+color: var(--blackish-green);
+border: 1px solid var(--mint-green);
+border-radius: 4px;
+background-color: transparent;
+width: 149px;
+height: 40px;
+}
